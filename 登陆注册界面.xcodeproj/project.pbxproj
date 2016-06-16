@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB745E491C04303F007D19CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E481C04303F007D19CA /* main.m */; };
+		EB745E521C043040007D19CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB745E501C043040007D19CA /* Main.storyboard */; };
+		EB745E621C043040007D19CA /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E611C043040007D19CA /* ______Tests.m */; };
+		EB745E6D1C043040007D19CA /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E6C1C043040007D19CA /* ______UITests.m */; };
+		EB745E7D1C043093007D19CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E7C1C043093007D19CA /* ViewController.m */; };
+		EB745E951C0430A4007D19CA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB745E7F1C0430A4007D19CA /* 1.png */; };
+		EB745E961C0430A4007D19CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E811C0430A4007D19CA /* AppDelegate.m */; };
+		EB745E971C0430A4007D19CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB745E821C0430A4007D19CA /* Assets.xcassets */; };
+		EB745E981C0430A4007D19CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB745E831C0430A4007D19CA /* LaunchScreen.storyboard */; };
+		EB745E9A1C0430A4007D19CA /* ic_back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EB745E891C0430A4007D19CA /* ic_back_btn.png */; };
+		EB745E9D1C0430A4007D19CA /* NewRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E8D1C0430A4007D19CA /* NewRegisterViewController.m */; };
+		EB745E9E1C0430A4007D19CA /* NewRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB745E8E1C0430A4007D19CA /* NewRegisterViewController.xib */; };
+		EB745EA11C0430A4007D19CA /* VIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745E921C0430A4007D19CA /* VIBaseViewController.m */; };
+		EB745EA21C0430A4007D19CA /* VIBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB745E931C0430A4007D19CA /* VIBaseViewController.xib */; };
+		EB745EA31C0430A4007D19CA /* 登录_11.png in Resources */ = {isa = PBXBuildFile; fileRef = EB745E941C0430A4007D19CA /* 登录_11.png */; };
+		EB745EA71C0431BB007D19CA /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB745EA61C0431BB007D19CA /* UIImageView+LBBlurredImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB745E5E1C043040007D19CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB745E3C1C04303F007D19CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB745E431C04303F007D19CA;
+			remoteInfo = "登陆注册界面";
+		};
+		EB745E691C043040007D19CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB745E3C1C04303F007D19CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB745E431C04303F007D19CA;
+			remoteInfo = "登陆注册界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB745E441C04303F007D19CA /* 登陆注册界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "登陆注册界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB745E481C04303F007D19CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB745E511C043040007D19CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB745E581C043040007D19CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB745E5D1C043040007D19CA /* 登陆注册界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登陆注册界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB745E611C043040007D19CA /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		EB745E631C043040007D19CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB745E681C043040007D19CA /* 登陆注册界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登陆注册界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB745E6C1C043040007D19CA /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		EB745E6E1C043040007D19CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB745E7B1C043093007D19CA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB745E7C1C043093007D19CA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB745E7F1C0430A4007D19CA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = test/1.png; sourceTree = "<group>"; };
+		EB745E801C0430A4007D19CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = test/AppDelegate.h; sourceTree = "<group>"; };
+		EB745E811C0430A4007D19CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = test/AppDelegate.m; sourceTree = "<group>"; };
+		EB745E821C0430A4007D19CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = test/Assets.xcassets; sourceTree = "<group>"; };
+		EB745E841C0430A4007D19CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB745E881C0430A4007D19CA /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = test/Header.h; sourceTree = "<group>"; };
+		EB745E891C0430A4007D19CA /* ic_back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_back_btn.png; path = test/ic_back_btn.png; sourceTree = "<group>"; };
+		EB745E8C1C0430A4007D19CA /* NewRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewRegisterViewController.h; path = test/NewRegisterViewController.h; sourceTree = "<group>"; };
+		EB745E8D1C0430A4007D19CA /* NewRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewRegisterViewController.m; path = test/NewRegisterViewController.m; sourceTree = "<group>"; };
+		EB745E8E1C0430A4007D19CA /* NewRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewRegisterViewController.xib; path = test/NewRegisterViewController.xib; sourceTree = "<group>"; };
+		EB745E911C0430A4007D19CA /* VIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VIBaseViewController.h; path = test/VIBaseViewController.h; sourceTree = "<group>"; };
+		EB745E921C0430A4007D19CA /* VIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VIBaseViewController.m; path = test/VIBaseViewController.m; sourceTree = "<group>"; };
+		EB745E931C0430A4007D19CA /* VIBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VIBaseViewController.xib; path = test/VIBaseViewController.xib; sourceTree = "<group>"; };
+		EB745E941C0430A4007D19CA /* 登录_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "登录_11.png"; path = "test/登录_11.png"; sourceTree = "<group>"; };
+		EB745EA51C0431BB007D19CA /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		EB745EA61C0431BB007D19CA /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB745E411C04303F007D19CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E5A1C043040007D19CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E651C043040007D19CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB745E3B1C04303F007D19CA = {
+			isa = PBXGroup;
+			children = (
+				EB745E461C04303F007D19CA /* 登陆注册界面 */,
+				EB745E601C043040007D19CA /* 登陆注册界面Tests */,
+				EB745E6B1C043040007D19CA /* 登陆注册界面UITests */,
+				EB745E451C04303F007D19CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB745E451C04303F007D19CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB745E441C04303F007D19CA /* 登陆注册界面.app */,
+				EB745E5D1C043040007D19CA /* 登陆注册界面Tests.xctest */,
+				EB745E681C043040007D19CA /* 登陆注册界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB745E461C04303F007D19CA /* 登陆注册界面 */ = {
+			isa = PBXGroup;
+			children = (
+				EB745EA41C0431AF007D19CA /* 背景模糊 */,
+				EB745E881C0430A4007D19CA /* Header.h */,
+				EB745E8C1C0430A4007D19CA /* NewRegisterViewController.h */,
+				EB745E8D1C0430A4007D19CA /* NewRegisterViewController.m */,
+				EB745E8E1C0430A4007D19CA /* NewRegisterViewController.xib */,
+				EB745E911C0430A4007D19CA /* VIBaseViewController.h */,
+				EB745E921C0430A4007D19CA /* VIBaseViewController.m */,
+				EB745E931C0430A4007D19CA /* VIBaseViewController.xib */,
+				EB745E7A1C043093007D19CA /* Main */,
+				EB745E821C0430A4007D19CA /* Assets.xcassets */,
+				EB745E801C0430A4007D19CA /* AppDelegate.h */,
+				EB745E811C0430A4007D19CA /* AppDelegate.m */,
+				EB745E831C0430A4007D19CA /* LaunchScreen.storyboard */,
+				EB745E501C043040007D19CA /* Main.storyboard */,
+				EB745E581C043040007D19CA /* Info.plist */,
+				EB745E471C04303F007D19CA /* Supporting Files */,
+			);
+			path = "登陆注册界面";
+			sourceTree = "<group>";
+		};
+		EB745E471C04303F007D19CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB745E7F1C0430A4007D19CA /* 1.png */,
+				EB745E891C0430A4007D19CA /* ic_back_btn.png */,
+				EB745E941C0430A4007D19CA /* 登录_11.png */,
+				EB745E481C04303F007D19CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB745E601C043040007D19CA /* 登陆注册界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB745E611C043040007D19CA /* ______Tests.m */,
+				EB745E631C043040007D19CA /* Info.plist */,
+			);
+			path = "登陆注册界面Tests";
+			sourceTree = "<group>";
+		};
+		EB745E6B1C043040007D19CA /* 登陆注册界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB745E6C1C043040007D19CA /* ______UITests.m */,
+				EB745E6E1C043040007D19CA /* Info.plist */,
+			);
+			path = "登陆注册界面UITests";
+			sourceTree = "<group>";
+		};
+		EB745E7A1C043093007D19CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EB745E7B1C043093007D19CA /* ViewController.h */,
+				EB745E7C1C043093007D19CA /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EB745EA41C0431AF007D19CA /* 背景模糊 */ = {
+			isa = PBXGroup;
+			children = (
+				EB745EA51C0431BB007D19CA /* UIImageView+LBBlurredImage.h */,
+				EB745EA61C0431BB007D19CA /* UIImageView+LBBlurredImage.m */,
+			);
+			path = "背景模糊";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB745E431C04303F007D19CA /* 登陆注册界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB745E711C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面" */;
+			buildPhases = (
+				EB745E401C04303F007D19CA /* Sources */,
+				EB745E411C04303F007D19CA /* Frameworks */,
+				EB745E421C04303F007D19CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "登陆注册界面";
+			productName = "登陆注册界面";
+			productReference = EB745E441C04303F007D19CA /* 登陆注册界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB745E5C1C043040007D19CA /* 登陆注册界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB745E741C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面Tests" */;
+			buildPhases = (
+				EB745E591C043040007D19CA /* Sources */,
+				EB745E5A1C043040007D19CA /* Frameworks */,
+				EB745E5B1C043040007D19CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB745E5F1C043040007D19CA /* PBXTargetDependency */,
+			);
+			name = "登陆注册界面Tests";
+			productName = "登陆注册界面Tests";
+			productReference = EB745E5D1C043040007D19CA /* 登陆注册界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB745E671C043040007D19CA /* 登陆注册界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB745E771C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面UITests" */;
+			buildPhases = (
+				EB745E641C043040007D19CA /* Sources */,
+				EB745E651C043040007D19CA /* Frameworks */,
+				EB745E661C043040007D19CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB745E6A1C043040007D19CA /* PBXTargetDependency */,
+			);
+			name = "登陆注册界面UITests";
+			productName = "登陆注册界面UITests";
+			productReference = EB745E681C043040007D19CA /* 登陆注册界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB745E3C1C04303F007D19CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.hyh;
+				TargetAttributes = {
+					EB745E431C04303F007D19CA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					EB745E5C1C043040007D19CA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EB745E431C04303F007D19CA;
+					};
+					EB745E671C043040007D19CA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EB745E431C04303F007D19CA;
+					};
+				};
+			};
+			buildConfigurationList = EB745E3F1C04303F007D19CA /* Build configuration list for PBXProject "登陆注册界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB745E3B1C04303F007D19CA;
+			productRefGroup = EB745E451C04303F007D19CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB745E431C04303F007D19CA /* 登陆注册界面 */,
+				EB745E5C1C043040007D19CA /* 登陆注册界面Tests */,
+				EB745E671C043040007D19CA /* 登陆注册界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB745E421C04303F007D19CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB745E9A1C0430A4007D19CA /* ic_back_btn.png in Resources */,
+				EB745E9E1C0430A4007D19CA /* NewRegisterViewController.xib in Resources */,
+				EB745E951C0430A4007D19CA /* 1.png in Resources */,
+				EB745EA31C0430A4007D19CA /* 登录_11.png in Resources */,
+				EB745EA21C0430A4007D19CA /* VIBaseViewController.xib in Resources */,
+				EB745E981C0430A4007D19CA /* LaunchScreen.storyboard in Resources */,
+				EB745E521C043040007D19CA /* Main.storyboard in Resources */,
+				EB745E971C0430A4007D19CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E5B1C043040007D19CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E661C043040007D19CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB745E401C04303F007D19CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB745EA11C0430A4007D19CA /* VIBaseViewController.m in Sources */,
+				EB745E7D1C043093007D19CA /* ViewController.m in Sources */,
+				EB745E9D1C0430A4007D19CA /* NewRegisterViewController.m in Sources */,
+				EB745EA71C0431BB007D19CA /* UIImageView+LBBlurredImage.m in Sources */,
+				EB745E491C04303F007D19CA /* main.m in Sources */,
+				EB745E961C0430A4007D19CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E591C043040007D19CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB745E621C043040007D19CA /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB745E641C043040007D19CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB745E6D1C043040007D19CA /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB745E5F1C043040007D19CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB745E431C04303F007D19CA /* 登陆注册界面 */;
+			targetProxy = EB745E5E1C043040007D19CA /* PBXContainerItemProxy */;
+		};
+		EB745E6A1C043040007D19CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB745E431C04303F007D19CA /* 登陆注册界面 */;
+			targetProxy = EB745E691C043040007D19CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB745E501C043040007D19CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB745E511C043040007D19CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB745E831C0430A4007D19CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB745E841C0430A4007D19CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB745E6F1C043040007D19CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB745E701C043040007D19CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB745E721C043040007D19CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登陆注册界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB745E731C043040007D19CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登陆注册界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB745E751C043040007D19CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登陆注册界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登陆注册界面.app/登陆注册界面";
+			};
+			name = Debug;
+		};
+		EB745E761C043040007D19CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登陆注册界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登陆注册界面.app/登陆注册界面";
+			};
+			name = Release;
+		};
+		EB745E781C043040007D19CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登陆注册界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "登陆注册界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB745E791C043040007D19CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登陆注册界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hyh.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "登陆注册界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB745E3F1C04303F007D19CA /* Build configuration list for PBXProject "登陆注册界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB745E6F1C043040007D19CA /* Debug */,
+				EB745E701C043040007D19CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB745E711C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB745E721C043040007D19CA /* Debug */,
+				EB745E731C043040007D19CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB745E741C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB745E751C043040007D19CA /* Debug */,
+				EB745E761C043040007D19CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB745E771C043040007D19CA /* Build configuration list for PBXNativeTarget "登陆注册界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB745E781C043040007D19CA /* Debug */,
+				EB745E791C043040007D19CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB745E3C1C04303F007D19CA /* Project object */;
+}
